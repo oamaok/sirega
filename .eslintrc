@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "no-plusplus": 0,
+    "no-bitwise": 0,
+    "no-continue": 0,
+    "no-unused-vars": 0,
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+  }
+}
